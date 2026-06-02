@@ -59,3 +59,10 @@ Feel the difference:
 ```
 
 </td></tr></table>
+
+---
+
+## <sup>Featured by</sup>
+
+- https://11ty.blades.ninja/starters/
+- https://11tybundle.dev/starters/
