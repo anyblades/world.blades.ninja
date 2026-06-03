@@ -14,6 +14,7 @@
     "build": "npm run do -- build"
   },
   "dependencies": {
+    "@11ty/eleventy": "^4.0.0-alpha.7",
     "@anyblades/eleventy-blades-base": "^0.4.8"
   },
   "=== SITE GLOBALS": "compatible with https://www.11ty.dev/docs/plugins/rss/#virtual-template",
