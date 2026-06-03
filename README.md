@@ -54,6 +54,7 @@ Feel the difference:
 ```treeview
 ├── .11ty/
 ├── blog/
+├── media/
 ├── LICENSE.md
 ├── README.md
 └── netlify.toml
