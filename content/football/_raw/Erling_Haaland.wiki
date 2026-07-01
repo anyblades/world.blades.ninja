@@ -1,0 +1,135 @@
+== Career statistics ==
+=== Club ===
+{{updated|match played 19 May 2026}}
+
+{| class="wikitable" style="text-align: center;"
+|+ Appearances and goals by club, season and competition
+|-
+!rowspan="2"|Club
+!rowspan="2"|Season
+!colspan="3"|League
+!colspan="2"|National cup{{efn|Includes [[Norwegian Football Cup|Norwegian Cup]], [[Austrian Cup]], [[DFB-Pokal]], [[FA Cup]]}}
+!colspan="2"|League cup{{efn|Includes [[EFL Cup]]}}
+!colspan="2"|Europe
+!colspan="2"|Other
+!colspan="2"|Total
+|-
+!Division!!Apps!!Goals!!Apps!!Goals!!Apps!!Goals!!Apps!!Goals!!Apps!!Goals!!Apps!!Goals
+|-
+|rowspan="3"|[[Bryne FK 2|Bryne 2]]
+|[[2015 Norwegian Third Division|2015]]<ref name="NorwegianFA" />
+|[[3. divisjon]]
+|5||2||colspan="2"|—||colspan="2"|—||colspan="2"|—||colspan="2"|—||5||2
+|-
+|[[2016 Norwegian Third Division|2016]]<ref name="NorwegianFA" />
+|3. divisjon
+|13||16||colspan="2"|—||colspan="2"|—||colspan="2"|—||colspan="2"|—||13||16
+|-
+!colspan="2"|Total
+!18||18||colspan="2"|—||colspan="2"|—||colspan="2"|—||colspan="2"|—||18||18
+|-
+|[[Bryne FK|Bryne]]
+|[[2016 Norwegian First Division|2016]]<ref name="NorwegianFA" />
+|[[1. divisjon]]
+|16||0||0||0||colspan="2"|—||colspan="2"|—||colspan="2"|—||16||0
+|-
+|[[Molde FK 2|Molde 2]]
+|[[2017 Norwegian Third Division|2017]]<ref name="NorwegianFA" />
+|3. divisjon
+|4||2||colspan="2"|—||colspan="2"|—||colspan="2"|—||colspan="2"|—||4||2
+|-
+|rowspan="3"|[[Molde FK|Molde]]
+|[[2017 Molde FK season|2017]]<ref name="NorwegianFA">{{cite web |url=https://www.fotball.no/fotballdata/person/profil/?fiksId=4166302&underside=statistikk |title=Erling Braut Haaland: Statistikk: Klubbstatistikk |trans-title=Erling Braut Haaland: Statistics: Club statistics |publisher=Norwegian Football Federation |access-date=27 June 2026 |language=no}}</ref>
+|[[Eliteserien]]
+|14||2||6||2||colspan="2"|—||colspan="2"|—||colspan="2"|—||20||4
+|-
+|[[2018 Molde FK season|2018]]<ref>For Eliteserien and Norwegian Football Cup: {{cite web |url=https://www.fotball.no/fotballdata/person/profil/?fiksId=4166302&underside=statistikk |title=Erling Braut Haaland: Statistikk |trans-title=Erling Braut Haaland: Statistics |publisher=Norwegian Football Federation |access-date=15 June 2026 |language=no}}<br />For UEFA Europa League: {{cite web |url=https://uk.soccerway.com/players/erling-haland/441484/ |title=E. Haaland: Summary |website=Soccerway |publisher=Perform Group |access-date=15 September 2024 |archive-url=https://web.archive.org/web/20241007103609/https://uk.soccerway.com/players/erling-haland/441484/ |archive-date=7 October 2024}}</ref>
+|Eliteserien
+|25||12||0||0||colspan="2"|—||5{{efn|name=UEL|Appearance(s) in [[UEFA Europa League]]}}||4||colspan="2"|—||30||16
+|-
+!colspan="2"|Total
+!39||14||6||2||colspan="2"|—||5||4||colspan="2"|—||50||20
+|-
+|rowspan="3"|[[FC Red Bull Salzburg|Red Bull Salzburg]]
+|{{Nowrap|[[2018–19 FC Red Bull Salzburg season|2018–19]]}}<ref name="Soccerway" />
+|[[Austrian Football Bundesliga|Austrian Bundesliga]]
+|2||1||2||0||colspan="2"|—||1{{efn|name=UEL}}||0||colspan="2"|—||5||1
+|-
+|[[2019–20 FC Red Bull Salzburg season|2019–20]]<ref name="Soccerway" />
+|Austrian Bundesliga
+|14||16||2||4||colspan="2"|—||6{{efn|name=UCL|Appearances in [[UEFA Champions League]]}}||8||colspan="2"|—||22||28
+|-
+!colspan="2"|Total
+!16||17||4||4||colspan="2"|—||7||8||colspan="2"|—||27||29
+|-
+|rowspan="4"|[[Borussia Dortmund]]
+|[[2019–20 Borussia Dortmund season|2019–20]]<ref name="Soccerway" />
+|[[Bundesliga]]
+|15||13||1||1||colspan="2"|—||2{{efn|name=UCL}}||2||colspan="2"|—||18||16
+|-
+|[[2020–21 Borussia Dortmund season|2020–21]]<ref name="Soccerway" />
+|Bundesliga
+|28||27||4||3||colspan="2"|—||8{{efn|name=UCL}}||10||1{{efn|name=GSC|Appearance in [[DFL-Supercup]]}}||1||41||41
+|-
+|[[2021–22 Borussia Dortmund season|2021–22]]<ref name="Soccerway">{{cite web |url=https://uk.soccerway.com/players/erling-haland/441484/ |title=E. Haaland: Summary |website=Soccerway |publisher=Perform Group |access-date=24 August 2024 |archive-url=https://web.archive.org/web/20241007103609/https://uk.soccerway.com/players/erling-haland/441484/ |archive-date=7 October 2024}}</ref>
+|Bundesliga
+|24||22||2||4||colspan="2"|—||3{{efn|name=UCL}}||3||1{{efn|name=GSC}}||0||30||29
+|-
+!colspan="2"|Total
+!67||62||7||8||colspan="2"|—||13||15||2||1||89||86
+|-
+|rowspan="5"|[[Manchester City F.C.|Manchester City]]
+|[[2022–23 Manchester City F.C. season|2022–23]]<ref>{{soccerbase season|101493|2022|access-date=20 June 2023}}</ref>
+|[[Premier League]]
+|35||36||4||3||2||1||11{{efn|name=UCL}}||12||1{{efn|name=FACS|Appearance in [[FA Community Shield]]}}||0||53||52
+|-
+|[[2023–24 Manchester City F.C. season|2023–24]]<ref>{{soccerbase season|101493|2023|access-date=25 May 2024}}</ref>
+|Premier League
+|31||27||3||5||0||0||9{{efn|name=UCL}}||6||2{{efn|One appearance in FA Community Shield, one appearance in [[UEFA Super Cup]]}}||0||45||38
+|-
+|[[2024–25 Manchester City F.C. season|2024–25]]<ref>{{soccerbase season|101493|2024|access-date=16 August 2025}}</ref>
+|Premier League
+|31||22||3||1||0||0||9{{efn|name=UCL}}||8||5{{efn|One appearance in FA Community Shield, four appearances and three goals in [[FIFA Club World Cup]]}}||3||48||34
+|-
+|[[2025–26 Manchester City F.C. season|2025–26]]<ref>{{soccerbase season|101493|2025|access-date=15 June 2026}}</ref>
+|Premier League
+|35||27||4||3||3||0||10{{efn|name=UCL}}||8||colspan="2"|—||52||38
+|-
+!colspan="2"|Total
+!132||112||14||12||5||1||39||34||8||3||198||162
+|-
+!colspan="3"|Career total
+!292||225||31||26||5||1||64||61||10||4||402||317
+|}
+
+{{notelist}}
+
+=== International ===
+{{further|List of international goals scored by Erling Haaland}}
+
+{{updated|match played 30 June 2026}}<ref>{{cite web |url=https://www.fotball.no/fotballdata/person/profil/?fiksId=4166302&underside=statistikk |title=Erling Braut Haaland: Statistikk: Landslagstatistikk |trans-title=Erling Braut Haaland: Statistics: National team statistics |publisher=Norwegian Football Federation |access-date=30 June 2026 |language=no}}</ref>
+
+{| class="wikitable" style="text-align: center;"
+|+ Appearances and goals by national team and year
+|-
+!National team!!Year!!Apps!!Goals
+|-
+|rowspan="8"|[[Norway national football team|Norway]]
+|2019||2||0
+|-
+|2020||5||6
+|-
+|2021||8||6
+|-
+|2022||8||9
+|-
+|2023||6||6
+|-
+|2024||10||11
+|-
+|2025||9||17
+|-
+|2026||5||5
+|-
+!colspan="2"|Total||53||60
+|}

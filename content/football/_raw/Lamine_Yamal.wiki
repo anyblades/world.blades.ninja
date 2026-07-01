@@ -1,0 +1,92 @@
+==Career statistics==
+===Club===
+{{updated|match played 22 April 2026}}<ref name="WorldFootball">{{cite web |title=Lamine Yamal |url=https://www.worldfootball.net/person/pe805251/lamine-yamal/ |access-date=15 August 2023 |website=WorldFootball.net |archive-date=30 April 2023 |archive-url=https://web.archive.org/web/20230430064230/https://www.worldfootball.net/player_summary/lamine-yamal/ |url-status=live }}</ref>
+
+{| class="wikitable" style="text-align: center"
+|+ Appearances and goals by club, season and competition
+!rowspan="2"|Club
+!rowspan="2"|Season
+!colspan="3"|League
+!colspan="2"|[[Copa del Rey]]
+!colspan="2"|[[UEFA#Club|Europe]]
+!colspan="2"|Other
+!colspan="2"|Total
+|-
+!Division!!Apps!!Goals!!Apps!!Goals!!Apps!!Goals!!Apps!!Goals!!Apps!!Goals
+|-
+|[[FC Barcelona Atlètic|Barcelona B]] 
+|[[2022–23 Primera Federación|2022–23]]
+|[[Primera Federación]]
+|1||0||colspan="2"|—||colspan="2"|—||2{{efn|Appearances in [[2023 Primera Federación play-offs|Primeira Federación play-offs]]}}||0||3||0
+|-
+|rowspan="5"|[[FC Barcelona|Barcelona]]
+|[[2022–23 FC Barcelona season|2022–23]]
+|[[La Liga]]
+|1||0||0||0||0||0||0||0||1||0
+|-
+|[[2023–24 FC Barcelona season|2023–24]]
+|La Liga
+|37||5||1||1||10{{efn|name=UCL|Appearances in [[UEFA Champions League]]}}||0||2{{efn|name=SDE|Appearances in [[Supercopa de España]]}}||1||50||7
+|-
+|[[2024–25 FC Barcelona season|2024–25]]
+|La Liga
+|35||9||5||2||13{{efn|name=UCL}}||5||2{{efn|name=SDE}}||2||55||18
+|-
+|[[2025–26 FC Barcelona season|2025–26]]
+|La Liga
+|28||16||5||2||10{{efn|name=UCL}}||6||2{{efn|name=SDE}}||0||45||24
+|-
+!colspan="2"|Total
+!101!!30!!11!!5!!33!!11!!6!!3!!151!!49
+|-
+!colspan="3"|Career total
+!102!!30!!11!!5!!33!!11!!8!!3!!154!!49
+|}
+{{notelist}}
+
+===International===
+{{updated|match played 21 June 2026}}<ref name="EUFoot">{{cite web|url=https://eu-football.info/_player.php?id=32440|title=Lamine Yamal|website=EU-Football.info|access-date=20 February 2021|archive-date=2 October 2023|archive-url=https://web.archive.org/web/20231002151630/https://eu-football.info/_player.php?id=32440|url-status=live}}</ref>
+{| class="wikitable" style="text-align:center"
+|+ Appearances and goals by national team and year
+!National team!!Year!!Apps!!Goals
+|-
+|rowspan="4"|[[Spain national football team|Spain]]
+|2023||4||2
+|-
+|2024||13||1
+|-
+|2025||6||3
+|-
+|2026||4||1
+|-
+!colspan="2"|Total!!27!!7
+|}
+
+{{updated|match played 21 June 2026.}}
+:''Spain score listed first, score column indicates score after each Yamal goal.''<ref name="EUFoot"/>
+
+{| class="wikitable sortable"
+|+ List of international goals scored by Lamine Yamal 
+!scope="col"|No.
+!scope="col"|Date
+!scope="col"|Venue
+!scope="col"|Cap
+!scope="col"|Opponent
+!scope="col"|Score
+!scope="col"|Result
+!scope="col"|Competition
+|-
+| align=center|1 || 8 September 2023 || [[Boris Paichadze Dinamo Arena]], [[Tbilisi]], Georgia || align=center | 1 || {{fb|GEO}} || align=center|7–1 || align=center| 7–1 || [[UEFA Euro 2024 qualifying]]
+|-
+| align=center|2 || 16 November 2023 || [[Alphamega Stadium]], [[Limassol]], Cyprus || align=center | 3 || {{fb|CYP}} || align=center|1–0 || align=center| 3–1 || UEFA Euro 2024 qualifying
+|-
+| align=center|3 || 9 July 2024 || [[Allianz Arena]], [[Munich]], Germany || align="center" |13 || {{fb|FRA}} || align=center|1–1 || align="center" | 2–1 || [[UEFA Euro 2024]]
+|-
+| align=center|4 || 23 March 2025 || [[Mestalla Stadium|Mestalla]], [[Valencia]], Spain || align="center" |19 || {{fb|NED}} || align=center|3–2 || align="center" | 3–3 {{aet}}<br>{{pso|5–4}} || [[2024–25 UEFA Nations League A]]
+|-
+| align=center|5 || rowspan="2"|5 June 2025 || rowspan="2"|[[MHPArena]], [[Stuttgart]], Germany || rowspan="2" align="center" |20 || rowspan="2"| {{fb|FRA}} || align=center|3–0 || rowspan="2" align="center" | 5–4 || rowspan="2"|[[2025 UEFA Nations League Finals]]
+|-
+| align=center|6 || align=center|5–1
+|-
+| align=center|7 || 21 June 2026 || [[Mercedes-Benz Stadium]], [[Atlanta]], United States || align="center" |27 || {{fb|KSA}} || align=center|1–0 || align="center" | 4–0 || [[2026 FIFA World Cup]]
+|}

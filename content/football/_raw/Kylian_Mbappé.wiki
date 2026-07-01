@@ -1,0 +1,130 @@
+==Career statistics==
+===Club===
+{{updated|match played 23 May 2026}}
+
+{| class="wikitable" style="text-align: center;"
+|+ Appearances and goals by club, season and competition
+|-
+!rowspan="2"|Club
+!rowspan="2"|Season
+!colspan="3"|League
+!colspan="2"|National cup{{efn|Includes [[Coupe de France]], [[Copa del Rey]]}}
+!colspan="2"|League cup{{efn|Includes [[Coupe de la Ligue]]}}
+!colspan="2"|Europe
+!colspan="2"|Other
+!colspan="2"|Total
+|-
+!Division!!Apps!!Goals!!Apps!!Goals!!Apps!!Goals!!Apps!!Goals!!Apps!!Goals!!Apps!!Goals
+|-
+|rowspan="3"|[[AS Monaco FC II|Monaco II]]
+|[[2015–16 Championnat de France Amateur|2015–16]]<ref name="soccerwayperform"/>
+|{{abbr|[[Championnat de France Amateur|CFA]]|Championnat de France Amateur}}
+|10||2||colspan="2"|—||colspan="2"|—||colspan="2"|—||colspan="2"|—||10||2
+|-
+|[[2016–17 Championnat de France Amateur|2016–17]]<ref name="soccerwayperform"/>
+|{{abbr|CFA|Championnat de France Amateur}}
+|2||2||colspan="2"|—||colspan="2"|—||colspan="2"|—||colspan="2"|—||2||2
+|-
+!colspan="2"|Total
+!12||4||colspan="2"|—||colspan="2"|—||colspan="2"|—||colspan="2"|—||12||4
+|-
+|rowspan="4"|[[AS Monaco FC|Monaco]]
+|[[2015–16 AS Monaco FC season|2015–16]]<ref name="soccerwaysportsight"/>
+|[[Ligue 1]]
+|11||1||1||0||1||0||1{{efn|name=UEL|Appearance in [[UEFA Europa League]]}}||0||colspan="2"|—||14||1
+|-
+|[[2016–17 AS Monaco FC season|2016–17]]<ref name="soccerwaysportsight"/>
+|Ligue 1
+|29||15||3||2||3||3||9{{efn|name=UCL|Appearances in [[UEFA Champions League]]}}||6||colspan="2"|—||44||26
+|-
+|[[2017–18 AS Monaco FC season|2017–18]]<ref name="soccerwaysportsight"/>
+|Ligue 1
+|1||0||colspan="2"|—||colspan="2"|—||colspan="2"|—||1{{efn|name=TdC|Appearance in [[Trophée des Champions]]}}||0||2||0
+|-
+!colspan="2"|Total
+!41!!16!!4!!2!!4!!3!!10!!6!!1!!0!!60!!27
+|-
+|[[Paris Saint-Germain FC|Paris Saint-Germain]] (loan)
+|[[2017–18 Paris Saint-Germain FC season|2017–18]]<ref name="soccerwaysportsight"/>
+|Ligue 1
+|27||13||5||4||4||0||8{{efn|name=UCL}}||4||colspan="2"|—||44||21
+|-
+|rowspan="7"|Paris Saint-Germain
+|[[2018–19 Paris Saint-Germain FC season|2018–19]]<ref name="soccerwaysportsight"/>
+|Ligue 1
+|29||33||4||2||2||0||8{{efn|name=UCL}}||4||0||0||43||39
+|-
+|[[2019–20 Paris Saint-Germain FC season|2019–20]]<ref name="soccerwaysportsight"/>
+|Ligue 1
+|20||18||3||4||3||2||10{{efn|name=UCL}}||5||1{{efn|name=TdC}}||1||37||30
+|-
+|[[2020–21 Paris Saint-Germain FC season|2020–21]]<ref name="soccerwaysportsight"/>
+|Ligue 1
+|31||27||5||7||colspan="2"|—||10{{efn|name=UCL}}||8||1{{efn|name=TdC}}||0||47||42
+|-
+|[[2021–22 Paris Saint-Germain FC season|2021–22]]<ref name="soccerwaysportsight"/>
+|Ligue 1
+|35||28||3||5||colspan="2"|—||8{{efn|name=UCL}}||6||0||0||46||39
+|-
+|[[2022–23 Paris Saint-Germain FC season|2022–23]]<ref name="soccerwaysportsight"/>
+|Ligue 1
+|34||29||1||5||colspan="2"|—||8{{efn|name=UCL}}||7||0||0||43||41
+|-
+|[[2023–24 Paris Saint-Germain FC season|2023–24]]<ref name="soccerwaysportsight"/>
+|Ligue 1
+|29||27||6||8||colspan="2"|—||12{{efn|name=UCL}}||8||1{{efn|name=TdC}}||1||48||44
+|-
+!colspan="2"|Total
+!205!!175!!27!!35!!9!!2!!64!!42!!3!!2!!308!!256
+|-
+|rowspan="3"|[[Real Madrid CF|Real Madrid]]
+|[[2024–25 Real Madrid CF season|2024–25]]<ref name="soccerwaysportsight"/>
+|[[La Liga]]
+|34||31||4||2||colspan="2"|—||14{{efn|name=UCL}}||7||7{{efn|One appearance and one goal in [[UEFA Super Cup]], one appearance and one goal in [[FIFA Intercontinental Cup]], two appearances and one goal in [[Supercopa de España]], three appearances and one goal in [[FIFA Club World Cup]]}}||4||59||44
+|-
+|[[2025–26 Real Madrid CF season|2025–26]]<ref name="soccerwaysportsight">{{cite web |url=https://uk.soccerway.com/player/mbappe-kylian/Wn6E2SED/ |title=Kylian Mbappe: Summary |website=Soccerway |publisher=Sportsight |access-date=20 June 2026}}</ref>
+|La Liga
+|31||25||1||2||colspan="2"|—||11{{efn|name=UCL}}||15||1{{efn|Appearance in Supercopa de España}}||0||44||42
+|-
+!colspan="2"|Total
+!65!!56!!5!!4!!colspan="2"|—!!25!!22!!8!!4!!103!!86
+|-
+!colspan="3"|Career total
+!323!!251!!36!!41!!13!!5!!99!!70!!12!!6!!483!!373
+|}
+
+{{notelist}}
+
+===International===
+{{main|List of international goals scored by Kylian Mbappé}}
+
+{{updated|match played 30 June 2026}}<ref>{{cite web |url=https://www.fff.fr/equipe-nationale/joueur/8566-mbappe-kylian/fiche.html |title=Kylian Mbappé |publisher=French Football Federation |access-date=23 June 2026 |language=fr |archive-url=https://web.archive.org/web/20251219180419/https://www.fff.fr/equipe-nationale/joueur/8566-mbappe-kylian/fiche.html |archive-date=19 December 2025 |url-status=live}}</ref>
+
+{| class="wikitable" style="text-align: center;"
+|+ Appearances and goals by national team and year
+|-
+!National team!!Year!!Apps!!Goals
+|-
+|rowspan="10"|[[France national football team|France]]
+|2017||10||1
+|-
+|2018||18||9
+|-
+|2019||6||3
+|-
+|2020||5||3
+|-
+|2021||14||8
+|-
+|2022||13||12
+|-
+|2023||9||10
+|-
+|2024||11||2
+|-
+|2025||8||7
+|-
+|2026||8||7
+|-
+!colspan="2"|Total||102||62
+|}
