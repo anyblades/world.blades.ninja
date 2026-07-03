@@ -19,7 +19,7 @@ title: <sup style>All-time</sup> Top football players <sub style>by goals scored
 | Goals by season: {#row-s} |                                     |                                     |                               |                             |                                     |
 | 1st                       | 5 _'02 ∑=5_                         | 1 _'04 ∑=1_                         | 1 _'15 ∑=1_                   | 4 _'16 ∑=4_                 | `9` _'23 ∑=9_                       |
 | 2nd                       | 6 _'04 ∑=11_                        | 8 _'06 ∑=9_ _🌐1_                   | `26` _'17 ∑=27_               | 17 _'17 ∑=21_               | 19 _'24 ∑=28_                       |
-| 3rd                       | 16 _'05 ∑=27_                       | 19 _'07 ∑=28_                       | 22 _'18 ∑=49_ _🏆🌐4_          | `44` _'18 ∑=65_             | 27 _'26 ∑=55_ _🌐1_                 |
+| 3rd                       | 16 _'05 ∑=27_                       | 19 _'07 ∑=28_                       | 22 _'18 ∑=49_ _🏆🌐4_         | `44` _'18 ∑=65_             | 27 _'26 ∑=55_ _🌐1_                 |
 | 4th                       | 14 _'06 ∑=41_ _🌐1_                 | 22 _'08 ∑=50_                       | `48` _'19 ∑=97_               | `47` _'19 ∑=112_            | 1 _'27 ∑=56_                        |
 | 5th                       | 29 _'07 ∑=70_                       | `40` _'09 ∑=90_ _**⚽️**_            | 33 _'20 ∑=130_                | 35 _'20 ∑=147_              |
 | 6th                       | 47 _'08 ∑=117_ _**⚽️👟**_           | 50 _'10 ∑=140_ _**⚽️👟**_           | 45 _'21 ∑=175_                | `61` _'21 ∑=208_            |
@@ -34,7 +34,7 @@ title: <sup style>All-time</sup> Top football players <sub style>by goals scored
 | 15th                      | `55` _'17 ∑=597_ _**⚽️**_           | `55` _'19 ∑=668_ _**⚽️👟**_         |
 | 16th                      | `55` _'18 ∑=652_ _🌐4_              | 36 _'20 ∑=704_                      |
 | 17th                      | 34 _'19 ∑=686_                      | `39` _'21 ∑=743_ _**⚽️**_           |
-| 18th                      | `51` _'20 ∑=737_                    | 20 _'22 ∑=763_ _🏆🌐7_               |
+| 18th                      | `51` _'20 ∑=737_                    | 20 _'22 ∑=763_ _🏆🌐7_              |
 | 19th                      | `39` _'21 ∑=776_                    | `39` _'23 ∑=802_ _**⚽️**_           |
 | 20th                      | `37` _'22 ∑=813_                    | 19 _'24 ∑=821_                      |
 | 21st                      | 20 _'22 ∑=833_ _🌐1_                | `29` _'25 ∑=850_                    |
@@ -47,6 +47,7 @@ title: <sup style>All-time</sup> Top football players <sub style>by goals scored
 
 <style>
   table {
+    /* [CORE] Table styles */
     th, td {
       position: relative;
       text-align: right;
@@ -54,17 +55,14 @@ title: <sup style>All-time</sup> Top football players <sub style>by goals scored
         text-align: left;
       }
     }
+    /* [CORE] Sub-line helper */
     em {
       display: block;
       font-style: normal;
       font-size: 50%;
       opacity: 50%;
     }
-    strong {
-      font-weight: normal;
-      /* filter: sepia(1) saturate(10) hue-rotate(10deg) brightness(1.2); */
-      filter: sepia(1) saturate(8) hue-rotate(-5deg) brightness(0.85) contrast(1.4);
-    }
+    /* [CORE] Highlighter helper */
     code {
       display: inline;
       padding: 0.125em 0.25em;
@@ -73,7 +71,13 @@ title: <sup style>All-time</sup> Top football players <sub style>by goals scored
       color: var(--pico-mark-color);
       font: inherit;
     }
-    /* Overrides */
+    /* [NICE] Gold-ish emoji helper */
+    strong {
+      font-weight: normal;
+      /* filter: sepia(1) saturate(10) hue-rotate(10deg) brightness(1.2); */
+      filter: sepia(1) saturate(8) hue-rotate(-5deg) brightness(0.85) contrast(1.4);
+    }
+    /* [NICE] Overrides */
     tr:has(#row-goals) {
       font-size: 150%;
     }
