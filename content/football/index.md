@@ -71,6 +71,7 @@ title: <sup style>All-time</sup> Top football goalscorers <sub style>and runners
       background: var(--pico-mark-background-color);
       color: var(--pico-mark-color);
       font: inherit;
+      text-wrap: nowrap;
     }
     /* [NICE] Gold-ish emoji helper */
     strong {
