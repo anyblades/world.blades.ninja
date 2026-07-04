@@ -12,8 +12,8 @@ title: <sup style>All-time</sup> Top football players <sub style>by goals scored
 | Goals {#row-goals}        | `976` _~41/y_                       | 917 _~42/y_                         | 431 _~39/y_                   | 357 _~40/y_                 | 56 _~19/y_                          |
 | World Cup goals           | 🌐11                                | `🌐19`                              | `🌐18`                        | 🌐5                         | 🌐1                                 |
 | World Cups won            | — _of 6_                            | <code>🏆**1**</code> _of 6_         | <code>🏆**1**</code> _of 3_   | — _of 1_                    | — _of 1_                            |
-| Golden Shoes              | **👟4**                             | <code>**👟6**</code>                | **👟1**                       | **👟1**                     | —                                   |
 | Ballons d'Or              | **⚽️5**                             | <code>**⚽️8**</code>                | —                             | —                           | —                                   |
+| Golden Shoes              | **👟4**                             | <code>**👟6**</code>                | **👟1**                       | **👟1**                     | —                                   |
 | 1st goal                  | 17y 8m _Sporting vs<br> Moreirense_ | 17y 10m _Barcelona <br>vs Albacete_ | 17y 2m _Monaco <br>vs Troyes_ | 16y 9m _Molde <br>vs Volda_ | `16y 2m` _Barcelona <br>vs Granada_ |
 | Seasons played            | `24` _2002–present_                 | 22 _2004–present_                   | 11 _2015–present_             | 9 _2016–present_            | 3 _2022–present_                    |
 | Goals by season: {#row-s} |                                     |                                     |                               |                             |                                     |
@@ -60,6 +60,7 @@ title: <sup style>All-time</sup> Top football players <sub style>by goals scored
       display: block;
       font-style: normal;
       font-size: 50%;
+      text-wrap: nowrap;
       opacity: 50%;
     }
     /* [CORE] Highlighter helper */
