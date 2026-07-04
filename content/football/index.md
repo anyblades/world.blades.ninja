@@ -50,7 +50,7 @@ title: <sup style>All-time</sup> Top football players <sub style>by goals scored
     /* [CORE] Table styles */
     th, td {
       position: relative;
-      text-align: right;
+      text-align: center;
       &:first-child {
         text-align: left;
       }
@@ -82,7 +82,8 @@ title: <sup style>All-time</sup> Top football players <sub style>by goals scored
       font-size: 150%;
     }
     tr:has(#row-s) ~ tr td:first-child {
-      text-align: right;
+      text-align: center;
+      vertical-align: middle;
       font-style: italic;
       opacity: 50%;
     }
