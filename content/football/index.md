@@ -1,7 +1,7 @@
 ---
 eleventyNavigation:
-  key: <i>⚽️</i> Top players
-title: <sup style>All-time</sup> Top football players <sub style>by goals scored • as of July 2026</sub>
+  key: <i>⚽️</i> Top goalscorers
+title: <sup style>All-time</sup> Top football goalscorers <sub style>and runners-up • as of July 2026</sub>
 ---
 
 ---
