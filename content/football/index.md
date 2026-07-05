@@ -50,7 +50,7 @@ title: <sup style>2026</sup> Top football g<b data-i="⚽️"><b>o</b></b>alscor
 | Debut age                                        | 17y 6m _Sporting vs Inter<br>'02/03_      | 17y 3m _Barça vs Espanyol<br>'04/05_  | 16y 11m _Monaco vs Caen<br>'15/16_  | `15y 9m` _Bryne vs Ranheim<br>'16_ | `15y 9m` _Barça vs Betis<br>'22/23_   |
 | 1st goal                                         | 17y 8m _Sporting vs Moreirense<br>'02/03_ | 17y 10m _Barça vs Albacete<br>'04/05_ | 17y 2m _Monaco vs Troyes<br>'15/16_ | `16y 9m` _Molde vs Volda<br>'17_   | `16y 2m` _Barça vs Granada<br>'23/24_ |
 | Seasons played                                   | `23.9` _'02/03–present_                   | 21.7 _'04/05–present_                 | 10.6 _'15/16–present_               | 10.1 _'16–present_                 | 3.2 _'22/23–present_                  |
-| 1st season {#row-s1}                             | `5` _'02/03 ∑=5_                          | 1 _'04/05 ∑=1_                        | 1 _'15/16 ∑=1_                      | 0 _'16 ∑=0_                        | 0 _'22/23 ∑=0_                        |
+| 1st season {#row-s1}                             | _'02/03_ `5` _∑=5_                        | 1 _'04/05 ∑=1_                        | 1 _'15/16 ∑=1_                      | 0 _'16 ∑=0_                        | 0 _'22/23 ∑=0_                        |
 | 2nd season                                       | 6 _'03/04 ∑=11_                           | 8 _'05/06 ∑=9_                        | `26` _'16/17 ∑=27_                  | 4 _'17 ∑=4_                        | 9 _'23/24 ∑=9_                        |
 | 3rd season                                       | 16 _'04/05 ∑=27_                          | 19 _'06/07 ∑=28_ 🌐1                  | `22` _'17/18 ∑=49_                  | 17 _'18 ∑=21_                      | 19 _'24/25 ∑=28_                      |
 | 4th season                                       | 14 _'05/06 ∑=41_                          | 22 _'07/08 ∑=50_                      | `48` _'18/19 ∑=97_ 🏆🌐4            | 44 _'19/20 ∑=65_                   | 27 _'25/26 ∑=55_ {.bar-es}            |
@@ -87,16 +87,13 @@ title: <sup style>2026</sup> Top football g<b data-i="⚽️"><b>o</b></b>alscor
   table {
     /* [CORE] Sub-line helper */
     em {
-      display: block;
-      font-style: normal;
-      font-size: 50%;
-      opacity: 50%;
+      display: block; font-size: 50%;
+      font-style: normal; opacity: 50%;
     }
     /* [CORE] Highlighter helper */
     code {
       display: inline;
       padding: 0.125em 0.25em;
-      margin-inline: -0.25em;
       background: var(--pico-mark-background-color);
       color: var(--pico-mark-color);
       font: inherit;
@@ -115,6 +112,7 @@ title: <sup style>2026</sup> Top football g<b data-i="⚽️"><b>o</b></b>alscor
           text-align: center;
           opacity: 50%;
         }
+        em { display: inline; vertical-align: text-top }
       }
     }
     /* [NICE] Subtotals */
