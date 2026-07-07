@@ -137,6 +137,30 @@ description: "Who will cross the bar of 1K goals? Tracking active football legen
 
 ---
 
+## <sup style>Support the project</sup>
+
+<article>
+
+We DON'T ask for financial support! Instead consider to:
+
+1. Support our underlying open-source projects by giving a star on GitHub:
+   - https://github.com/anyblades/blades
+   - https://github.com/anyblades/subtle
+   - https://github.com/anyblades/eleventy-blades
+   - https://github.com/anyblades ← or even more if you like!
+     {.markerless}
+2. Follow us on social media and spread the word about any of our projects:
+   - https://x.com/BladesCSS
+   - https://x.com/anydigitall
+   - https://mastodon.social/@anydigital
+   - https://www.reddit.com/user/any-digital/
+   - https://bsky.app/profile/any.digital
+   - https://www.linkedin.com/company/anydigital/
+     {.markerless}
+3. Contribute to this project on its [GitHub](https://github.com/anyblades/1000goals.blades.ninja).
+
+</article>
+
 <details><summary>Data sources</summary>
 
 - https://en.wikipedia.org/w/index.php?title=Cristiano_Ronaldo&action=raw
@@ -144,5 +168,6 @@ description: "Who will cross the bar of 1K goals? Tracking active football legen
 - https://en.wikipedia.org/w/index.php?title=Kylian_Mbapp%C3%A9&action=raw
 - https://en.wikipedia.org/w/index.php?title=Erling_Haaland&action=raw
 - https://en.wikipedia.org/w/index.php?title=Lamine_Yamal&action=raw
+  {.markerless}
 
 </details>
