@@ -1,4 +1,8 @@
 ---
+eleventyComputed:
+  content_for_header: |-
+    <meta property="og:image" content="{{ site.base }}/og-image.png">
+    <meta name="twitter:card" content="summary_large_image">
 title: The Race for <mark>1000 Goals</mark>
 description: "Who will cross the bar of 1K goals? Tracking active football legends, rising contenders, and their historic season-by-season performance.&nbsp; <i class='faded' style='text-wrap: nowrap'>Updated: July 7, 2026</i>"
 ---
