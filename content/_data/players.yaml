@@ -1,0 +1,12 @@
+- name: Lionel
+  surname: Messi
+  seasons:
+    - season: "'12/13"
+      goals: 72
+      g_shoe: true
+    - season: "'22/23"
+      goals: 39
+      w_cup:
+        goals: 7
+        won: true
+      b_dor: true
