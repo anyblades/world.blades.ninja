@@ -59,7 +59,7 @@ description: "Who will cross the bar of 1K goals? Tracking active football legen
   {{ '<br>_(' ~ season.notes ~ ')_' if season.notes }}
 {% endset %} {{ _ | replace('\n', ' ') | safe if season }} |{% endfor %}
 {%- if s in [3, 9, 21] %}
-| Subtotals {.vs-} |{% for p, totals in runn_totals %} ∑={{ totals.goals }} |{% endfor %}
+| Subtotals {.vs-} |{% for p, totals in runn_totals %} {% if player_stats[p].seasons[s] %}∑={{ totals.goals }}{% else %}_(not reached)_{% endif %} |{% endfor %}
 {%- endif %}
 {%- endfor %}
 
