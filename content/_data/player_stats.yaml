@@ -2,33 +2,341 @@
   surname: Ronaldo
   country: 🇵🇹
   seasons:
+    - year: "'02/03"
+      metrics:
+        goals: 5
+    - year: "'03/04"
+      metrics:
+        goals: 6
+    - year: "'04/05"
+      metrics:
+        goals: 16
+    - year: "'05/06"
+      metrics:
+        goals: 14
+    - year: "'06/07"
+      metrics:
+        goals: 29
+    - year: "'07/08"
+      metrics:
+        goals: 47
+        👟: true
+        ⚽️: true
+    - year: "'08/09"
+      metrics:
+        goals: 27
+      notes: injury
+    - year: "'09/10"
+      metrics:
+        goals: 34
+      notes: injury
     - year: "'10/11"
       metrics:
         goals: 56
         👟: true
-      notes: "notes"
-    - year: "'10/11"
+    - year: "'11/12"
       metrics:
-        goals: 56
+        goals: 67
+    - year: "'12/13"
+      metrics:
+        goals: 60
+        ⚽️: true
+    - year: "'13/14"
+      metrics:
+        goals: 61
         👟: true
+        ⚽️: true
+    - year: "'14/15"
+      metrics:
+        goals: 66
+        👟: true
+        🌐: 1
+    - year: "'15/16"
+      metrics:
+        goals: 54
+        ⚽️: true
+    - year: "'16/17"
+      metrics:
+        goals: 55
+        ⚽️: true
+    - year: "'17/18"
+      metrics:
+        goals: 55
+    - year: "'18/19"
+      metrics:
+        goals: 34
+        🌐: 4
+    - year: "'19/20"
+      metrics:
+        goals: 51
+    - year: "'20/21"
+      metrics:
+        goals: 39
+    - year: "'21/22"
+      metrics:
+        goals: 37
+    - year: "'22/23"
+      metrics:
+        goals: 20
+        🌐: 1
+      notes: MU conflict
+    - year: "'23/24"
+      metrics:
+        goals: 60
+    - year: "'24/25"
+      metrics:
+        goals: 42
+    - year: "'25/26"
+      metrics:
+        goals: 38
+    - year: "'26/27"
+      metrics:
+        goals: 3
+        🌐: 3
 - name: Lionel
   surname: Messi
   country: 🇦🇷
   seasons:
+    - year: "'04/05"
+      metrics:
+        goals: 1
+    - year: "'05/06"
+      metrics:
+        goals: 8
+    - year: "'06/07"
+      metrics:
+        goals: 19
+        🌐: 1
+    - year: "'07/08"
+      metrics:
+        goals: 22
+    - year: "'08/09"
+      metrics:
+        goals: 40
+        🥇: true
+        ⚽️: true
+    - year: "'09/10"
+      metrics:
+        goals: 50
+        👟: true
+        ⚽️: true
+    - year: "'10/11"
+      metrics:
+        goals: 55
+        ⚽️: true
+    - year: "'11/12"
+      metrics:
+        goals: 77
+        👟: true
+        ⚽️: true
+    - year: "'12/13"
+      metrics:
+        goals: 72
+        👟: true
+    - year: "'13/14"
+      metrics:
+        goals: 47
+        🌐: 4
+    - year: "'14/15"
+      metrics:
+        goals: 66
+        ⚽️: true
+    - year: "'15/16"
+      metrics:
+        goals: 45
+    - year: "'16/17"
+      metrics:
+        goals: 62
+        👟: true
+    - year: "'17/18"
+      metrics:
+        goals: 49
+        👟: true
+        🌐: 1
+    - year: "'18/19"
+      metrics:
+        goals: 55
+        👟: true
+        ⚽️: true
+    - year: "'19/20"
+      metrics:
+        goals: 36
+    - year: "'20/21"
+      metrics:
+        goals: 39
+        ⚽️: true
+    - year: "'21/22"
+      metrics:
+        goals: 20
+      notes: COVID
     - year: "'22/23"
       metrics:
         goals: 39
-        🥇: true
-        👟: true
         🏆: true
-        🌐: 7
         ⚽️: true
+        🌐: 7
+    - year: "2023"
+      metrics:
+        goals: 19
+      notes: half-season
+    - year: "2024"
+      metrics:
+        goals: 29
+    - year: "2025"
+      metrics:
+        goals: 46
+    - year: "2026"
+      metrics:
+        goals: 23
+        🌐: 8
+    - year: "2027"
+      metrics: {}
+      notes: contract signed
+    - year: "2028"
+      metrics: {}
+      notes: contract signed
 - name: Kylian
   surname: Mbappé
   country: 🇫🇷
+  seasons:
+    - year: "'15/16"
+      metrics:
+        goals: 1
+    - year: "'16/17"
+      metrics:
+        goals: 26
+    - year: "'17/18"
+      metrics:
+        goals: 22
+    - year: "'18/19"
+      metrics:
+        goals: 48
+        🏆: true
+        🌐: 4
+    - year: "'19/20"
+      metrics:
+        goals: 33
+      notes: COVID impact
+    - year: "'20/21"
+      metrics:
+        goals: 45
+    - year: "'21/22"
+      metrics:
+        goals: 47
+    - year: "'22/23"
+      metrics:
+        goals: 53
+        🌐: 8
+    - year: "'23/24"
+      metrics:
+        goals: 54
+    - year: "'24/25"
+      metrics:
+        goals: 46
+        👟: true
+    - year: "'25/26"
+      metrics:
+        goals: 49
+    - year: "'26/27"
+      metrics:
+        goals: 9
+        🌐: 8
+    - year: "'27/28"
+      metrics: {}
+      notes: contract signed
+    - year: "'28/29"
+      metrics: {}
+      notes: contract signed
 - name: Erling
   surname: Haaland
   country: 🇳🇴
+  seasons:
+    - year: "2016"
+      metrics:
+        goals: 0
+    - year: "2017"
+      metrics:
+        goals: 4
+    - year: "2018"
+      metrics:
+        goals: 17
+    - year: "'19/20"
+      metrics:
+        goals: 44
+    - year: "'20/21"
+      metrics:
+        goals: 47
+    - year: "'21/22"
+      metrics:
+        goals: 35
+      notes: injury
+    - year: "'22/23"
+      metrics:
+        goals: 61
+        👟: true
+    - year: "'23/24"
+      metrics:
+        goals: 44
+    - year: "'24/25"
+      metrics:
+        goals: 45
+    - year: "'25/26"
+      metrics:
+        goals: 55
+    - year: "'26/27"
+      metrics:
+        goals: 7
+        🌐: 7
+    - year: "'27/28"
+      metrics: {}
+      notes: contract signed
+    - year: "'28/29"
+      metrics: {}
+      notes: contract signed
+    - year: "'29/30"
+      metrics: {}
+      notes: contract signed
+    - year: "'30/31"
+      metrics: {}
+      notes: contract signed
+    - year: "'31/32"
+      metrics: {}
+      notes: contract signed
+    - year: "'32/33"
+      metrics: {}
+      notes: contract signed
+    - year: "'33/34"
+      metrics: {}
+      notes: contract signed
 - name: Lamine
   surname: Yamal
   country: 🇪🇸
+  seasons:
+    - year: "'22/23"
+      metrics:
+        goals: 0
+    - year: "'23/24"
+      metrics:
+        goals: 9
+    - year: "'24/25"
+      metrics:
+        goals: 19
+    - year: "'25/26"
+      metrics:
+        goals: 27
+    - year: "'26/27"
+      metrics:
+        goals: 1
+        🌐: 1
+    - year: "'27/28"
+      metrics: {}
+      notes: contract signed
+    - year: "'28/29"
+      metrics: {}
+      notes: contract signed
+    - year: "'29/30"
+      metrics: {}
+      notes: contract signed
+    - year: "'30/31"
+      metrics: {}
+      notes: contract signed
