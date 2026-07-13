@@ -78,7 +78,7 @@ description: "Who will cross the bar of 1K goals? Tracking active football legen
     <tr>
       <th scope="row">{{ s + 1 }}</th>
       {%- for p in range(0, player_stats | length) %}
-      {%- if runn_totals[p][s].goals %}<td style="--size: {{ runn_totals[p][s].goals / 1000 }}">{{ runn_totals[p][s].goals }}</td>{% endif %}
+      {%- if runn_totals[p][s].goals %}<td style="--start: {{ runn_totals[p][s - 1].goals | d(0) / 1000 }}; --end: {{ runn_totals[p][s].goals / 1000 }}">{{ runn_totals[p][s].goals }}</td>{% endif %}
       {%- endfor %}
     </tr>
     {%- endfor %}
