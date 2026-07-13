@@ -36,61 +36,75 @@ description: "Who will cross the bar of 1K goals? Tracking active football legen
 </style>
 
 <hr>
-{% renderTemplate 'md,njk', { player_stats: player_stats } %}
 <figure>
-
-| Player                                           |{% for player in player_stats %} <sup>{{ player.country }}</sup>{{ player.name }} <br>{{ player.surname }} |{% endfor %}
-| ------------------------------------------------ | ----------------------------------------------- | ----------------------------------------- | ---------------------------------------- | ----------------------------------- | ------------------------------------- |
-| Goals { #row-goals}                              | `976` _~41/year_                                | 919 _~42/year_                            | 433 _~41/year_                           | 359 _~36/year_                      | 56 _~18/year_                         |
-| World&nbsp;Cup goals                             | 🌐11                                            | `🌐21`                                    | `🌐20`                                   | 🌐7                                 | 🌐1                                   |
-| World&nbsp;Cups won                              | — _of 6_                                        | <code>**🏆1**</code> _of 6_               | <code>**🏆1**</code> _of 3_              | — _of 1_                            | — _of 1_                              |
-| Olympic Games won                                | — _of 1_                                        | <code>**🥇1**</code> _of 1_               | —                                        | —                                   | —                                     |
-| Ballons&nbsp;d'Or                                | **⚽️5**                                         | <code>**⚽️8**</code>                      | —                                        | —                                   | —                                     |
-| Golden&nbsp;Shoes                                | **👟4**                                         | <code>**👟6**</code>                      | **👟1**                                  | **👟1**                             | —                                     |
-| Debut age                                        | 17y 6m _Sporting vs Inter<br>'02/03_            | 17y 3m _Barça vs Espanyol<br>'04/05_      | 16y 11m _Monaco vs Caen<br>'15/16_       | `15y 9m` _Bryne vs Ranheim<br>2016_ | `15y 9m` _Barça vs Betis<br>'22/23_   |
-| 1st goal                                         | 17y 8m _Sporting vs Moreirense<br>'02/03_       | 17y 10m _Barça vs Albacete<br>'04/05_     | 17y 2m _Monaco vs Troyes<br>'15/16_      | `16y 9m` _Molde vs Volda<br>2017_   | `16y 2m` _Barça vs Granada<br>'23/24_ |
-| Seasons played { #row-seasons}                   | `23.9` _'02/03–present_                         | 21.7 _'04/05–present_                     | 10.6 _'15/16–present_                    | 10.1 _2016–present_                 | 3.2 _'22/23–present_                  |
-{%- set runn_totals = {} %}
-{%- for s in range(0, player_stats[0].seasons | length) %}
-| Season {{ s + 1 }} |{% for p in range(0, player_stats | length) %}{% set _ %}
-{% set season = player_stats[p].seasons[s] %}
-  {% set totals = {} %}
-  {% for m, val in season.metrics %}
-    {% set totals = totals | attr_set(m, runn_totals[p][s - 1][m] | d(0) + val) %}
-  {% endfor %}
-  {% set runn_totals = runn_totals | attr_set(p, runn_totals[p] | attr_set(s, totals) ) %}
-  _{{ season.year }}_ {{ season.metrics.goals }} {{ '_∑=' ~ totals.goals ~ '_' if totals.goals }}
-  {% set awards = season.metrics | attr_set('goals', false) | attr_set('🌐', false) %}
-  <br><strong>{{ awards | dictsort | selectattr('1') | join('', '0') }}</strong>{{ '🌐' ~ season.metrics['🌐'] if season.metrics['🌐'] }}
-  {{ '<br>_(' ~ season.notes ~ ')_' if season.notes }}
-{% endset %} {{ _ | replace('\n', ' ') | safe if season }} |{% endfor %}
-{%- if s in [3, 9, 21] %}
-| Subtotals {.vs-} |{% for p in range(0, player_stats | length) %} {% if player_stats[p].seasons[s] %}∑={{ runn_totals[p][s].goals }}{% else %}_(not reached)_{% endif %} |{% endfor %}
-{%- endif %}
-{%- endfor %}
-
-{.striped}
+  <table class="striped">
+    <thead>
+    <tr><td>Player</td>{% for player in player_stats %}<td><sup>{{ player.country }}</sup>{{ player.name }} <br>{{ player.surname }}</td>{% endfor %}</tr>
+    </thead>
+    <tr><td id="row-goals">Goals</td><td><code>976</code> <em>~41/year</em></td><td>919 <em>~42/year</em></td><td>433 <em>~41/year</em></td><td>359 <em>~36/year</em></td><td>56 <em>~18/year</em></td></tr>
+    <tr><td>World&nbsp;Cup goals</td><td>🌐11</td><td><code>🌐21</code></td><td><code>🌐20</code></td><td>🌐7</td><td>🌐1</td></tr>
+    <tr><td>World&nbsp;Cups won</td><td>— <em>of 6</em></td><td><code><strong>🏆1</strong></code> <em>of 6</em></td><td><code><strong>🏆1</strong></code> <em>of 3</em></td><td>— <em>of 1</em></td><td>— <em>of 1</em></td></tr>
+    <tr><td>Olympic Games won</td><td>— <em>of 1</em></td><td><code><strong>🥇1</strong></code> <em>of 1</em></td><td>—</td><td>—</td><td>—</td></tr>
+    <tr><td>Ballons&nbsp;d'Or</td><td><strong>⚽️5</strong></td><td><code><strong>⚽️8</strong></code></td><td>—</td><td>—</td><td>—</td></tr>
+    <tr><td>Golden&nbsp;Shoes</td><td><strong>👟4</strong></td><td><code><strong>👟6</strong></code></td><td><strong>👟1</strong></td><td><strong>👟1</strong></td><td>—</td></tr>
+    <tr><td>Debut age</td><td>17y 6m <em>Sporting vs Inter<br>'02/03</em></td><td>17y 3m <em>Barça vs Espanyol<br>'04/05</em></td><td>16y 11m <em>Monaco vs Caen<br>'15/16</em></td><td><code>15y 9m</code> <em>Bryne vs Ranheim<br>2016</em></td><td><code>15y 9m</code> <em>Barça vs Betis<br>'22/23</em></td></tr>
+    <tr><td>1st goal</td><td>17y 8m <em>Sporting vs Moreirense<br>'02/03</em></td><td>17y 10m <em>Barça vs Albacete<br>'04/05</em></td><td>17y 2m <em>Monaco vs Troyes<br>'15/16</em></td><td><code>16y 9m</code> <em>Molde vs Volda<br>2017</em></td><td><code>16y 2m</code> <em>Barça vs Granada<br>'23/24</em></td></tr>
+    <tr><td id="row-seasons">Seasons played</td><td><code>23.9</code> <em>'02/03–present</em></td><td>21.7 <em>'04/05–present</em></td><td>10.6 <em>'15/16–present</em></td><td>10.1 <em>2016–present</em></td><td>3.2 <em>'22/23–present</em></td></tr>
+    {% set runn_totals = {} %}
+    {% for s in range(0, player_stats[0].seasons | length) %}
+    <tr>
+      <td>Season {{ s + 1 }}</td>
+      {% for p in range(0, player_stats | length) %}
+      {% set season = player_stats[p].seasons[s] %}
+      {% set totals = {} %}
+      {% for m, val in season.metrics %}
+        {% set totals = totals | attr_set(m, runn_totals[p][s - 1][m] | d(0) + val) %}
+      {% endfor %}
+      {% set runn_totals = runn_totals | attr_set(p, runn_totals[p] | attr_set(s, totals) ) %}
+      {% if season %}
+      <td>
+        <em>{{ season.year }}</em> {{ season.metrics.goals }} {% if totals.goals %}<em>∑={{ totals.goals }}</em>{% endif %}
+        {% set awards = season.metrics | attr_set('goals', false) | attr_set('🌐', false) %}
+        <br><strong>{{ awards | dictsort | selectattr('1') | join('', '0') }}</strong>{{ '🌐' ~ season.metrics['🌐'] if season.metrics['🌐'] }}
+        {% if season.notes %}<br><em>({{ season.notes }})</em>{% endif %}
+      </td>
+      {% endif %}
+      {% endfor %}
+    </tr>
+    {% if s in [3, 9, 21] %}
+    <tr>
+      <td class="vs-">Subtotals</td>
+      {% for p in range(0, player_stats | length) %}
+      <td>
+        {% if player_stats[p].seasons[s] %}
+        ∑={{ runn_totals[p][s].goals }}
+        {% else %}<em>(not reached)</em>{% endif %}
+      </td>
+      {% endfor %}
+    </tr>
+    {% endif %}
+    {% endfor %}
+  </table>
 </figure>
 
 <figure id="chart" class="breakout-item-max">
   <table class="charts-css line multiple show-labels show-data-axes">
-    {%- for s in range(0, player_stats[0].seasons | length) %}
+    {% for s in range(0, player_stats[0].seasons | length) %}
     <tr>
       <th scope="row">{{ s + 1 }}</th>
-      {%- for p in range(0, player_stats | length) %}
-      {%- if runn_totals[p][s].goals %}<td style="--start: {{ runn_totals[p][s - 1].goals | d(0) / 1000 }}; --end: {{ runn_totals[p][s].goals / 1000 }}">{{ runn_totals[p][s].goals }}</td>{% endif %}
-      {%- endfor %}
+      {% for p in range(0, player_stats | length) %}
+      {% if runn_totals[p][s].goals %}<td style="--start: {{ runn_totals[p][s - 1].goals | d(0) / 1000 }}; --end: {{ runn_totals[p][s].goals / 1000 }}">{{ runn_totals[p][s].goals }}</td>{% endif %}
+      {% endfor %}
     </tr>
-    {%- endfor %}
+    {% endfor %}
   </table>
 </figure>
 <br>
 <ul class="charts-css legend legend-inline legend-square">
-  {%- for p in range(0, player_stats | length) %}
+  {% for p in range(0, player_stats | length) %}
   <li>{{ player_stats[p].surname }}</li>
-  {%- endfor %}
+  {% endfor %}
 </ul>
-{% endrenderTemplate %}
 
 <style>
   table.striped {
