@@ -143,7 +143,7 @@ description: "Who will cross the bar of 1K goals? Tracking active football legen
       <td>Subtotals</td>
       {% for p in range(0, player_stats | length) %}
       {% if player_stats[p].seasons[s] %}
-      <td>∑={{ totals[p][s].goals }}</td>
+      <td>{% set _ = '∑=' ~ totals[p][s].goals %}{{ ('<mark>' ~ _ ~ '</mark>' if ranks[s][p] == 1 else _ ) | safe }}</td>
       {% endif %}
       {% endfor %}
     </tr>
