@@ -24,13 +24,16 @@ description: "Who will cross the bar of 1K goals? Tracking active football legen
 {% endfor %}
 
 <figure id="chart" class="breakout-item-max">
-  <table class="charts-css line multiple show-labels show-data-axes">
+  <table class="charts-css line multiple show-labels show-data-axes show-data-on-hover">
     {% for s in range(0, player_stats[0].seasons | length) %}
     <tr>
       <th scope="row">{{ s + 1 }}</th>
       {% for p in range(0, player_stats | length) %}
-      {% if s < totals[p] | length - 1 %}
-      <td style="--start: {{ totals[p][s - 1].goals | d(0) / 1000 }}; --end: {{ totals[p][s].goals / 1000 }}">{{ totals[p][s].goals }}</td>
+      {% if totals[p][s] %}
+      {% set trail = s - (totals[p] | length - 1) + 3 %}
+      <td style="--start: {{ totals[p][s - 1].goals | d(0) / 1000 }}; --end: {{ totals[p][s].goals / 1000 }}; {{ '--trail: ' ~ trail if trail > 0 }}; {{ 'z-index: 999' if trail == 3 }}">
+        <b class="data" style="opacity: {{ '100%' if trail == 3 }}">{{ totals[p][s].goals }}</b>
+      </td>
       {% endif %}
       {% endfor %}
     </tr>
@@ -58,7 +61,8 @@ description: "Who will cross the bar of 1K goals? Tracking active football legen
       &:nth-of-type(10n+4) { --color: var(--color-4) }
       &:nth-of-type(10n+5) { --color: var(--color-5) }
       color: var(--color);
-      @media (width < 768px) { color: transparent }
+      &::before { opacity: calc(40% + 7.5% * pow(2, var(--trail, 0) ) ) }
+      .data { text-wrap: nowrap; transform: none !important; background: black; padding-inline: 0.5ch }
     }
   }
   #chart {
