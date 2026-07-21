@@ -70,12 +70,12 @@ TRAIL_SIZE: 4
       &:nth-of-type(10n+5) { --color: var(--color-5) }
       color: var(--color);
 
+      &::before { opacity: calc(20% + 10% * pow(2, var(--trail, 0) ) ) }
       .data {
         text-wrap: nowrap; font-weight: 900;
         -webkit-text-stroke: 0.25ch var(--pico-contrast-inverse); paint-order: stroke fill;
+        &.show { opacity: calc(40% + 7.5% * pow(2, var(--trail, 0) ) ) }
       }
-      .data.show,
-      &::before { opacity: calc(40% + 7.5% * pow(2, var(--trail, 0) ) ) }
     }
   }
   #chart {
